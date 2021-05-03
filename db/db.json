@@ -1,16 +1,14 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text"
-    },
+        "title": "Learn ExpressJS",
+        "text": "Learn server library",
+        "id":"1"
+      },
     {
-      "title": "new",
-      "text": "new"
-    },
-    {
-      "title": "new2",
-      "text": "new2"
+      "title": "Learn SQL",
+      "text": "Learn database",
+      "id": "2"
     }
   ]
 }

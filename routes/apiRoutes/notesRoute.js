@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { notes } = require('../../db/db.json');
 const fs = require('fs');
 const path = require('path');
+const { v4: uuidv4 } = require('uuid'); 
 
 
 function createNewNote(body, notes) {
@@ -20,6 +21,7 @@ router.get('/notes', (req,res)=>{
 })
 
 router.post('/notes', (req,res) =>{
+    req.body.id = notes.length.toString();
     let note = createNewNote(req.body,notes)
     res.json(notes)
 })

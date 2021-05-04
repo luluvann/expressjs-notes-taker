@@ -1,9 +1,14 @@
 {
   "notes": [
     {
+      "title": "Learn ReactJS",
+      "text": "Learn a new skills in a popular front-end framework",
+      "id": "1fc735d3-3464-4eaa-8a15-824932973af0"
+    },
+    {
       "title": "Learn SQL",
-      "text": "Learn SQL",
-      "id": "01"
+      "text": "Learn a structured query language",
+      "id": "9330fcb5-301b-4385-a8a6-7ddeeabb38cd"
     }
   ]
 }
